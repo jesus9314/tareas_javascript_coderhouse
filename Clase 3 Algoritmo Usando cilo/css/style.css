@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    justify-content: center;
+}
+.card{
+    background-color: white;
+    margin: 2rem 0;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 5px rgb(209, 209, 209);
+    max-width: 60%;
+}
+.card > h1 {
+    letter-spacing: 2px;
+    text-align: center;
+    color: rgb(0, 0, 105);
+}
+.card > p{
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 1.5px;
+}
+.name{
+    text-align: right;
+    color: rgb(63, 63, 63);
+    font-weight: 300;
+    letter-spacing: 1px;
+}
