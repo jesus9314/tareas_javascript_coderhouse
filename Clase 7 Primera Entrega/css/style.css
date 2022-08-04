@@ -1,0 +1,49 @@
+:root{
+    --poppins: 'Poppins', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(223, 223, 223);
+    display: flex;
+    justify-content: center;
+    font-family: var(--poppins);
+}
+.card{
+    background-color: white;
+    padding: 2rem;
+    border-radius: 5px;
+    border: 1px solid rgb(194, 194, 194);
+    margin: 2rem 0;
+    box-shadow: 2px 2px 10px 5px rgb(179, 179, 179);
+    max-width: 50%;
+}
+.card > h1{
+    letter-spacing: 2px;
+    color: rgb(0, 0, 119);
+    margin: 1rem 0;
+}
+.card > p{
+    text-align: justify;
+    line-height: 1.5;
+}
+.card > ul{
+    margin-left: 2.5rem;
+    margin-top: 1rem;
+}
+.card > ul > li{
+    color: rgb(73, 73, 73);
+}
+.ejemplo{
+    background-color: rgb(204, 204, 204);
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: justify;
+}
+.instrucciones{
+    color: gray;
+    font-weight: 300;
+}
